@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'XMPPFramework'
-  s.version = '3.7.1'
+  s.version = '3.7.3'
 
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '8.0'
@@ -47,7 +47,7 @@ s.source = { :git => 'https://github.com/aksonov/XMPPFramework.git', :branch => 
       'HEADER_SEARCH_PATHS' => '$(inherited) $(SDKROOT)/usr/include/libxml2 $(SDKROOT)/usr/include/libresolv',
       'ENABLE_BITCODE' => 'NO'
     }
-    core.dependency 'CocoaLumberjack', '~> 2.0'
+    core.dependency 'CocoaLumberjack', '~> 3.0'
     core.dependency 'CocoaAsyncSocket', '~> 7.5.0'
     core.dependency 'KissXML', '~> 5.1.2'
   end
