@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
-@import KissXML;
-
+#import <KissXML/KissXML.h>
 typedef NS_ENUM(NSInteger, XMPPBindResult) {
 	
 	XMPP_BIND_CONTINUE,      // The custom binding process is still ongoing.

@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@import KissXML;
-
+#import <KissXML/KissXML.h>
 @interface XMPPParser : NSObject
 
 - (id)initWithDelegate:(id)delegate delegateQueue:(dispatch_queue_t)dq;

@@ -10,8 +10,7 @@
 #import "XMPPJID.h"
 #import "XMPPIQ.h"
 
-@import KissXML;
-
+#import <KissXML/KissXML.h>
 @interface XMPPSlot: NSObject
 
 - (id)initWithPut:(NSString *)put andGet:(NSString *)get;
